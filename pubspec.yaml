@@ -1,0 +1,20 @@
+
+name: policy_acceptance
+description: Reusable Flutter consent screen for Terms & Conditions and Privacy Policy acceptance with versioned storage, a custom banner and localizable text.
+version: 0.1.0
+repository: https://github.com/preetkewl/policy_acceptance
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.0
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
